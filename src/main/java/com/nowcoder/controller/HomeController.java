@@ -15,9 +15,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by nowcoder on 2016/7/2.
- */
+
 @Controller
 public class HomeController {
     @Autowired

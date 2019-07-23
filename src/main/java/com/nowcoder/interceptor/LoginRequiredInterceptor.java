@@ -15,9 +15,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.Date;
 
-/**
- * Created by nowcoder on 2016/7/3.
- */
 @Component
 public class LoginRequiredInterceptor implements HandlerInterceptor {
 
