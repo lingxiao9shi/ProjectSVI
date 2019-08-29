@@ -32,8 +32,7 @@ public class IndexController {
     @ResponseBody
     public String index(HttpSession session) {
         logger.info("Visit Index");
-        return "Hello NowCoder," + session.getAttribute("msg")
-                + "<br> Say:" + toutiaoService.say();
+        return "Hello NowCoder,";
     }
 
     @RequestMapping(value = {"/profile/{groupId}/{userId}"})

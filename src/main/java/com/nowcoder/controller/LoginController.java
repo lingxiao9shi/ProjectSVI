@@ -76,7 +76,7 @@ public class LoginController {
                 eventProducer.fireEvent(new
                         EventModel(EventType.LOGIN).setActorId((int) map.get("userId"))
                         .setExt("username", "牛客").setExt("to", "zjuyxy@qq.com"));
-                return ToutiaoUtil.getJSONString(0, "注册成功");
+                return ToutiaoUtil.getJSONString(0, "登录成功");
             } else {
                 return ToutiaoUtil.getJSONString(1, map);
             }
